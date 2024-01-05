@@ -56,7 +56,7 @@ function createTodo(todo) {
   <td>
     <input type="checkbox" ${check}>
   </td>
-  <td><p style =${styleLine} > ${todo.text}</p></td>
+  <td><p style ='${styleLine}' > ${todo.text}</p></td>
   <td>
     <img
       class="update"
